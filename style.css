@@ -1,0 +1,115 @@
+* {
+    margin:0;
+    padding: 0;  
+  }
+  
+  body{
+    overflow-x: hidden !important; 
+}
+
+  body{
+      background: url(./fotos/manacafundo1.png) no-repeat top center/cover;
+  }
+
+
+  body{ font-size: 14px;
+  display: block;
+  }
+  
+  body * {
+      font-family: 'Mavenpro', sans-serif;
+      color: rgb(255,255,255);
+  } 
+  
+ 
+
+  #container {
+    flex-direction: column;
+      width:100%;
+      margin: 56px auto 0px;}
+  
+  
+  #profile {
+      text-align: center;
+      padding: 24px;
+  }
+  
+      #profile img {
+          display: block;
+  width: 200px;
+  margin: auto;
+    }
+  
+    #profile p {
+  font-weight: 100;
+  line-height: 24px;
+  margin-top: 8px
+    }
+
+    #profile1 p {
+      text-align: center;
+      font-weight: 100;
+      line-height: 24px;
+      margin-top: 8px
+        }
+    
+
+    #profile2 p {
+      text-align: center;
+      font-weight: 24px;
+      line-height: 24px;
+      font-size: 12px;
+      padding: 24px;
+      font-style: italic;
+    }
+  
+    ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      padding: 24px 0;
+    }
+  
+    ul li a {
+    display: flex;
+     padding: 16px;
+     align-items: center;
+     justify-content: center;
+     background: rgba(255,255,255,0.1);
+     width: 360px;
+     margin: auto;
+     border: 1px solid rgba(52,123,65);
+     border-radius: 18px;
+     backdrop-filter:blur(4px) ;
+     text-decoration: none;
+     font-weight: 500;
+     transition: background 0.1s;
+    }
+  
+    ul li a:hover{
+      background: rgba(52,123,65);
+      border: 1.5px solid white;
+    }
+  
+    #social-links{
+      display: flex;
+      justify-content: center;
+      padding: 2px 0;
+      font-size: 32px;
+    }
+  
+    #social-links a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 12px;
+      transition: brackground 0.2s;
+      border-radius: 50%;
+    }
+    
+    #social-links a:hover {
+  background: rgba(52,123,65);
+  
+  }
+  
